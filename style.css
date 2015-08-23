@@ -1,0 +1,91 @@
+*{
+	font-family: sans-serif;
+}
+#canvas{
+	width: 1500px;
+	height: 800px; 
+	background-color: rgb(240,240,240);
+}
+.cell{
+	margin: 1px;
+	width: 68px;
+	height: 63px;
+	text-align: center;
+	line-height: 0.1;
+	padding: 2px 0px 2px 0px;
+	display: inline-block;	
+	vertical-align: top;
+	border: 1px solid black;
+}
+.label{
+	margin: 1px;
+	width: 70px;
+	height: 65px;
+	text-align: center;
+	color: red;
+	padding: 2px 0px 2px 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+#blue{
+	width: 240px;
+	height: auto;
+	display: inline-block;
+}
+#red{
+	width: 760px;
+	height: auto;
+	display: inline-block;
+}
+#yellow{
+	width: 460px;
+	height: auto;
+	display: inline-block;
+}
+#green{
+	margin-top: 30px;
+	width: 1100px;
+	height: auto;
+	display: inline-block;
+}
+#blue .cell{
+	background-color: #3399FF;
+}
+#red .cell{
+	background-color: #E06666;
+}
+#yellow .cell{
+	background-color: #E6E600;
+}
+#green .cell{
+	background-color: #00FF00;
+}
+.red_empty {
+
+}
+#empty{
+	width: 240px;
+	height: auto;
+	color: red;
+	display: inline-block;
+	text-align: right;
+}
+.empty{
+	padding: 30px 0px 20px 10px;
+	width: 210px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+p.num{
+	font-family: sans-serif;
+	font-size: 10pt;
+	margin: 15px;
+}
+p.name{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: blue;
+	font-size: 18pt;
+	margin: 10pt;
+}
